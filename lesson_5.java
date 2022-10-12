@@ -24,7 +24,7 @@ public class lesson_5 {
         System.out.println();
         System.out.println("Пройти по словарю и добавить к значениям символ '!' ");
         System.out.println();
-        hashMap.forEach((k,n)-> System.out.println(k +  " - " + n + "!"));
+        replaceAll(n -> n + "!")
         System.out.println();
 
 //4  Добавить нового автора и название книги если соответствующего ключа не было.
